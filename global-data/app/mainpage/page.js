@@ -9,6 +9,7 @@ import imgfive from "@/app/Images/image 5.png"
 import imgsix from "@/app/Images/Stack of money and gold coins 3d cartoon style icon 1.png"
 
 import Image from "next/image";
+import Link from "next/link";
 
 function MainPage() {
     return (<>
@@ -22,8 +23,8 @@ function MainPage() {
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     social dynamics, nature's beauty, and business success with our seamlessly powerful dashboard</p>
                 <div className="flex flex-row gap-4 w-full justify-center items-center">
-                    <MYbutton>sing in</MYbutton>
-                    <MYbutton>login</MYbutton>
+                    <MYbutton><Link href={'/register'}>sing-up</Link></MYbutton>
+                    <MYbutton>log-in</MYbutton>
                 </div>
 
             </div>

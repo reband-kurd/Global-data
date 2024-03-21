@@ -1,10 +1,11 @@
 import {Inter} from 'next/font/google'
 import "../styles/globals.css";
+import { ClerkProvider } from '@clerk/nextjs';
 
 
 export const metadata = {
-    title: "Promptopia",
-    description: "Discover & Share AI Prompts",
+    title: "Global-Data",
+    description: "Discover & and profit",
 };
 
 const RootLayout = ({children}) => (
@@ -17,7 +18,9 @@ const RootLayout = ({children}) => (
         </div>
 
         <main className='app'>
+        <ClerkProvider>
             {children}
+        </ClerkProvider>
         </main>
     </provider>
 

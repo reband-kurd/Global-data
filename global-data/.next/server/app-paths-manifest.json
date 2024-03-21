@@ -1,18 +1,4 @@
 {
-<<<<<<< HEAD
-  "/homepage/page": "app/homepage/page.js",
   "/page": "app/page.js",
-  "/currnecny/page": "app/currnecny/page.js",
-  "/Crypto/page": "app/Crypto/page.js",
-  "/Sales/page": "app/Sales/page.js",
-  "/SocialMedia/page": "app/SocialMedia/page.js"
-=======
-  "/not-found": "app/not-found.js",
-  "/page": "app/page.js",
-  "/homepage/page": "app/homepage/page.js",
-  "/currnecny/page": "app/currnecny/page.js",
-  "/SocialMedia/page": "app/SocialMedia/page.js",
-  "/Sales/page": "app/Sales/page.js",
-  "/Crypto/page": "app/Crypto/page.js"
->>>>>>> 9301d076a0228cfd9892e25627ad989b2dc7614b
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
